@@ -1,0 +1,26 @@
+<h5>${user["name"]}</h5>
+<p>user id: ${user["id"]}</p>
+<p>username: ${user["username"]}</p>
+<p>email: ${user["email"]}</p>
+<p>address</p>
+<ul>
+  <li>Street: ${user["address"]["street"]}</li>
+  <li>Suite: ${user["address"]["suite"]}</li>
+  <li>City: ${user["address"]["city"]}</li>
+  <li>Zipcode: ${user["address"]["zipcode"]}</li>
+  <li>
+    Geo:
+    <ul>
+      <li>Latitude: ${user["address"]["geo"]["lat"]}</li>
+      <li>Longitude: ${user["address"]["geo"]["lng"]}</li>
+    </ul>
+  </li>
+</ul>
+<p>Phone: ${user["phone"]}</p>
+<p>Website: ${user["website"]}</p>
+<p>Company:</p>
+<ul>
+  <li>Name: ${user["company"]["name"]}</li>
+  <li>catchPhrase: ${user["company"]["catchPhrase"]}</li>
+  <li>bs: ${user["company"]["bs"]}</li>
+</ul>
